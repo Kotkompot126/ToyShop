@@ -1,0 +1,12 @@
+.title{
+	height: 150px;
+	text-align: left;
+	text-transform: uppercase;
+	line-height: 120px;
+	background-color: #D2691E;
+}
+.img{
+	height: 400px;
+	background-image: url(../img/life.jpg);
+	background-size: cover;
+}
