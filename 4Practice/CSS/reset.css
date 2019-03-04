@@ -89,3 +89,13 @@ table {
 	line-height: 25px;
 	letter-spacing: 3px;
 }
+.footer{
+	height: 100px;
+	text-align: left;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: white;
+	line-height: 120px;
+	background-color: #D2691E;
+}
