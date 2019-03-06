@@ -1,0 +1,76 @@
+@import url(reset.css);
+
+.main	{
+	height: 900px;
+}
+.header {
+	height: 100px;
+	text-align: left;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: white;
+	line-height: 100px;
+	background-color: lightblue;
+}
+.one {
+	line-height: 100px;
+	text-align: left;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: 'Roboto Condensed', sans-serif;
+
+}
+section {
+	display: inline-block;
+
+}
+.first {
+	height: 600px;
+	width: 200px;
+	border: 2px solid grey;
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+	border-radius: 10px;
+	line-height: 50px;
+	padding-left: 8px; 
+	position: relative;
+	left: 50px;
+	top: 150px;
+
+}
+.second {
+	height: 600px;
+	width: 200px;
+	border: 2px solid grey;
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+	border-radius: 10px;
+	line-height: 50px;
+	padding-left: 8px; 
+	position: relative;
+	left: 600px;
+	top: 150px;
+
+}
+.third {
+	height: 600px;
+	width: 200px;
+	border: 2px solid grey;
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+	border-radius: 10px;
+	line-height: 50px;
+	padding-left: 8px;
+	position: relative; 
+	left: 1200px;
+	top: 150px;
+}
+
+.footer	{
+	height: 100px;
+	text-align: left;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: white;
+	line-height: 100px;
+	background-color: lightblue;
+}

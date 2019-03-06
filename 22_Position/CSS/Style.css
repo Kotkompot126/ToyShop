@@ -1,0 +1,68 @@
+@import url(reset.css);
+
+section {
+	height: 600px;
+	border: 5px	solid black;
+}
+.inner {
+	width: 50px;
+	height: 50px;
+}
+.static .inner {
+	background-color: orange;
+	position: static;
+	margin: 50px;
+
+}
+.relative .inner {
+	background-color: pink;
+	position: relative;
+	top: 20px;
+	left: 40px;
+
+}
+.absolute {
+	position: relative;
+}
+.absolute .inner {
+	background-color: green;
+	position: absolute;
+	top: 100px;
+	right: 100px;
+}
+.fixed .inner {
+	background-color: yellow;
+	position: fixed;
+	bottom: 50px;
+	right: 10px;
+
+}
+.outer {
+	height: 600px;
+	border: 2px solid black
+}
+.first, .second, .third {
+	height: 200px;
+	width: 200px;
+	border-radius: 100px
+}
+.first {
+	background-color: blue;
+	position: relative;
+	bottom: 0px;
+	right: 0px;
+
+}
+.second {
+	background-color: navy;
+	position: relative;
+	bottom: 100px;
+	right: 0px;
+	z-index: 1;
+}
+.third {
+	background-color: purple;
+	position: relative;
+	bottom: 200px;
+	right: 0px;
+}

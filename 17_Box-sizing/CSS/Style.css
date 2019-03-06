@@ -1,0 +1,8 @@
+@import url(reset.css);
+.opa {
+	height: 600px;
+	width: 600px;
+	background-color: red;
+	border: 5px solid green;
+	box-sizing: border-box;
+}
