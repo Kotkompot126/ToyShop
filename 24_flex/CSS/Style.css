@@ -1,0 +1,23 @@
+@import url(reset.css);
+
+.flex-container {
+	height: 300px;
+	background-color: yellow;
+	display: flex;
+	flex-direction: row;
+	/*flex-wrap: wrap;*/
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+}
+.flex-item {
+	height: 100px;
+	width: 300px;
+	background-color: white;
+}
+.flex-item.one {
+	order: 1;
+	flex-grow: 0;
+	border: 1px solid red;
+	flex-shrink: 2;
+}

@@ -1,0 +1,103 @@
+@import url(reset.css);
+
+.header	{
+	height: 100px;
+	background-color: blue;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.title	{
+	margin-left: 20px;
+	color: white;
+	font-size: 40px;
+	font-family: 'Roboto Slab', serif;
+}
+.links	{
+	margin-right: 20px;
+	color: white;
+	font-size: 40px;
+	font-family: 'Roboto Slab', serif;
+}
+.img {
+	height: 700px;
+	background-image: url(../img/farm.jpg);
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.title.two	{
+	font-size: 40px;
+	font-family: 'Roboto Slab', serif;
+	color: purple;
+}
+.text.one {
+	height: 450px;	
+	width: 1200px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+}
+.inner.first {
+	height: 350px;
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+.who {
+	margin-left: 20px;
+	font-size: 25px;
+	font-family: 'Roboto Slab', serif;
+	line-height: 50px;
+}
+p {
+	margin-left: 20px;
+	font-size: 19px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.img-container {
+	height: 300px;
+	display: flex;
+	/*justify-content: space-between;
+	align-items: center;
+	Не выставляет расстояние между объектами
+	*/
+}
+.money {
+	margin: auto;
+	/* Не выставляет расстояние между объектами*/
+}
+.text.two {
+	height: 450px;	
+	width: 1200px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+}
+.inner.second {
+	height: 350px;
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+img {
+	float: left;
+}
+.footer	{
+	height: 100px;
+	background-color: blue;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.foot	{
+	margin-left: 20px;
+	color: white;
+	font-size: 40px;
+	font-family: 'Roboto Slab', serif;
+}
