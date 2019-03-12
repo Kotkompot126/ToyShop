@@ -1,0 +1,59 @@
+@import url(reset.css);
+
+.title {
+	background-color: blue;
+	height: 100px;
+
+}
+.h1 {
+	margin-left: 20px;
+	color: white;
+	font-size: 40px;
+	font-family: 'Roboto Slab', serif;
+	line-height: 100px;
+}
+.columns {
+	width: 80vw;
+	min-height: 100px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.column {
+	width: calc((100% - 40px)/3);
+	background-color: lightblue; 
+}
+.image	{
+	background-image: url(../img/icon.png);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;
+}
+p {
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 25px;
+	margin-bottom: 20px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.name {
+	margin-left: 20px;
+	font-size: 30px;
+	font-family: 'Roboto Slab', serif;
+	line-height: 100px;
+}
+.footer	{
+	height: 100px;
+	background-color: blue;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.foot	{
+	margin-left: 20px;
+	color: white;
+	font-size: 40px;
+	font-family: 'Roboto Slab', serif;

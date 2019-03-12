@@ -1,0 +1,42 @@
+@import url(reset.css);
+
+@keyframes moving {
+	from {
+	top: 0;
+	left: 0;
+	}
+	/*25% {
+	top: 100px;
+	left: 100px;
+	}
+	50% {
+	top: 150px;
+	left: 150px;
+	}
+	75% {
+	top: 350px;
+	left: 350px;
+	}*/
+	to {
+	top: 400px;
+	left: 500px;
+	}
+}
+body{
+	background: yellow;
+}
+.ball {
+	width: 200px;
+	height: 200px;
+	background-color: black;
+	border-radius: 100px;
+	position: relative;
+	animation-name: moving;
+	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+	animation-delay: .5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-play-state: running;
+
+}

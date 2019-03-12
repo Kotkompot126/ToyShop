@@ -1,0 +1,14 @@
+@import url(reset.css);
+
+.one {
+	width: 300px;
+	min-height: 300px;
+	border: 1px solid red;
+
+}
+.two {
+	height: 300px;
+	max-width: 1000px;
+	background-color: blue;
+	margin: auto;
+}

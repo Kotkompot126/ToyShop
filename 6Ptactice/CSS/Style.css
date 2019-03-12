@@ -28,9 +28,11 @@
 	justify-content: center;
 }
 .title.two	{
-	font-size: 40px;
-	font-family: 'Roboto Slab', serif;
-	color: purple;
+font-size: 40px;
+font-family: 'Roboto Slab', serif;
+color: purple;
+background-color: #fff;
+box-shadow: -5px 2px 50px 2px yellow;
 }
 .text.one {
 	height: 450px;	
