@@ -1,0 +1,43 @@
+@import url(reset.css);
+form {
+	width: 80%;
+	margin: auto;
+}
+input, select, textarea {
+	display: block;
+	width: 100%;
+	font-size: 20px;
+	color: lightgrey;
+	border: 1px solid black;
+} 
+input {
+	height: 30px;
+}
+label {
+	display: block;
+}
+label, span {
+	line-height: 2rem;
+	font-size: 20px;
+}
+input:focus, select:focus, textarea:focus {
+	outline: none;
+}
+input[type="radio"], input[type="checkbox"] {
+	display: inline-block;
+	width: 20px;
+	vertical-align: middle;
+}
+textarea {
+	height: 300px;
+}
+input[type="submit"] {
+	height: 50px;
+	cursor: pointer;
+	color: black;
+	background-color: white;
+}
+input[type="submit"]:hover {
+	color: white;
+	background-color: black;
+}
