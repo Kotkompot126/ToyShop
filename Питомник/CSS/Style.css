@@ -1,0 +1,35 @@
+@import url(reset.css);
+
+body {
+	width: 1024px;
+	margin: auto;
+}
+header, main, footer {
+	width: 940px;
+	margin: auto;
+}
+h1 {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 48px;
+}
+h2 {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 36px;
+	line-height: 40px;
+}
+h3 {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 24px;
+	line-height: 40px;
+}
+.text {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	line-height: 30px;
+	padding: 50%;
+}
+.about	{
+	background-image: url(../img/purple.jpg);
+	height: 1000px;
+	background-repeat: no-repeat;
+}

@@ -1,0 +1,42 @@
+@import url(reset.css);
+
+header {
+	height: 100px;
+	background-color: lightblue;
+}
+.title {
+	font-family: ;font-family: 'Roboto Slab', serif;
+	font-size: 40px;
+	line-height: 100px;
+	margin-left: 20px;
+}
+.first	{
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
+}
+.second	{
+	display: flex;
+	flex-direction: column;
+}
+.third	{
+	display: flex;
+	flex-direction: column;
+}
+a {
+	border: 2px solid black;
+	border-radius: 10px;
+	margin: auto;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 20px;
+	padding: 20px;
+	background-color: lightgrey;
+	color: black;
+	text-decoration: none;
+}
+main {
+	display: flex;
+}
+a:hover {
+	background-color: red;
+}
