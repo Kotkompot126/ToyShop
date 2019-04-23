@@ -12,12 +12,13 @@ let questMan = prompt('Как зовут человека, который вас
 const span = document.querySelector('span');
 span.innerHTML = questMan;
 
-const img = document.querySelector('img');
+const image = document.querySelector('img');
 let imgQuest = prompt('Введите адресс картинки');
-img.setAttribute ('src', 'imgQuest');
+console.log(imgQuest);
+image.setAttribute ('src', 'img/one.jpg');
 
 const bio = document.querySelector('.shortBio');
+bio.className += ' animated';
 let bioQuest = prompt('Введите текст');
 bio.innerHTML = bioQuest;
 
-bio.className += ' animated';
