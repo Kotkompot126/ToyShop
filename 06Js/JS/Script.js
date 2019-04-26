@@ -15,7 +15,7 @@ span.innerHTML = questMan;
 const image = document.querySelector('img');
 let imgQuest = prompt('Введите адресс картинки');
 console.log(imgQuest);
-image.setAttribute ('src', 'img/one.jpg');
+image.setAttribute ('src', 'imgQuest');
 
 const bio = document.querySelector('.shortBio');
 bio.className += ' animated';
