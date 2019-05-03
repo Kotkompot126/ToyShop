@@ -5,5 +5,5 @@ const form = document.forms[0];
 
 form.onsubmit = function(e) {
 	e.preventDefault();
-	total.innerHTML = Math.sin(form.elements.number.value);
+	total.innerHTML = Math.sin(form.elements.number.value*Math.PI/180);
 }
