@@ -1,0 +1,14 @@
+@import url(reset.css);
+
+.BitcoinScale {
+	height: 25px;
+	background-color: red;
+}
+.EthereumScale {
+	height: 25px;
+	background-color: yellow;
+}
+.LitecoinScale {
+	height: 25px;
+	background-color: green;
+}
